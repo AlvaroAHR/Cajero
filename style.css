@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background: #163562;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+
+.name  {
+    color: #163562;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecera a img {
+    height:10rem;
+    width: 10rem;
+  
+    /* border-radius: 50%; */
+}
+
+.titulo2 {
+    font-size: 40px;
+    color: rgb(78, 211, 211);
+}
+
+form  {
+    width: 31.87rem;
+    height: 15rem;
+    background-color: rgb(240, 248, 255, 0.15);
+    margin: 100px auto;
+    text-align: center;
+    align-items: baseline;
+    border-radius: 0.61em;
+    
+}
+
+label {
+    color: rgb(249, 247, 247);
+    font-size: 14px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 8px;
+    font-weight: bold;
+    align-items: center;
+}
+
+input {
+    display: flex;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+    align-items: center;
+    
+}
+select {
+    display: flex;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #141414;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    font-weight: bold;
+}
+
+label .saldo {
+    font-size: 40px;
+}
+
+
+
+footer p {
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.saldo {
+    color: white;
+    
+}
+
+#saldo  {
+    display: none;
+    font-size: 40px;
+    border-color: aqua;
+    background-color: none;
+    padding: 8px;
+    
+}
+
+.acciones {
+    align-items: start;
+}
+
+/* 
+.form-inicio {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+} */
